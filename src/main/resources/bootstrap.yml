@@ -12,7 +12,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/renatogithub/config-repository.git
+          uri: https://github.com/rponceso/config-repository.git
           search-paths: /
           default-label: "main"
         bootstrap: true
@@ -21,4 +21,4 @@ eureka:
   client:
     service-url:
       #defaultZone: https://spring-eureka-docker.azurewebsites.net/eureka
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: https://spring-azure-eureka-server.azurewebsites.net/eureka
