@@ -20,5 +20,6 @@ spring:
 eureka:
   client:
     service-url:
-      #defaultZone: https://spring-eureka-docker.azurewebsites.net/eureka
-      defaultZone: https://azure-eureka-server.azurewebsites.net/eureka
+      #defaultZone: http://eureka-server:8761/eureka
+      defaultZone: http://localhost:8761/eureka
+      #defaultZone: https://azure-eureka-server.azurewebsites.net/eureka
